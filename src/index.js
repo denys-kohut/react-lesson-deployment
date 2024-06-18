@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import { App } from './App';
+import { App } from './components/App/App';
 import { App2 } from './components/App2';
 import { Theme } from './constants';
 import { UserList } from './components/UserList';
