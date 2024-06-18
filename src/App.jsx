@@ -1,11 +1,11 @@
 import { useState } from 'react';
 
-import { Header } from '../Header';
-import { Button } from '../Button';
-import { List } from '../List';
-import { Disclaimer } from '../Disclaimer';
-import { Theme } from '../../constants';
-import { Counter } from '../Counter';
+import { Header } from './components/Header';
+import { Button } from './components/Button';
+import { List } from './components/List';
+import { Disclaimer } from './components/Disclaimer';
+import { Theme } from './constants';
+import { Counter } from './components/Counter';
 import './App.css';
 
 export function App({disclaimerText, title, theme, goods}) {
