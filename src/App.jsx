@@ -6,7 +6,7 @@ import { List } from './components/List';
 import { Disclaimer } from './components/Disclaimer';
 import { Theme } from './constants';
 import { Counter } from './components/Counter';
-import './App.css';
+import './AppStyle.css';
 
 export function App({disclaimerText, title, theme, goods}) {
   const [counter, setCounter] = useState(0)
