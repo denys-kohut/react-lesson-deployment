@@ -1,0 +1,16 @@
+.button {
+    border: 0;
+    padding: 20px;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+
+button.light {
+    background-color: beige;
+    color: aqua;
+}
+
+button.dark {
+    background-color: black;
+    color: beige;
+} 

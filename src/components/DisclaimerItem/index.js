@@ -1,0 +1,1 @@
+export { DisclaimerItem } from './DisclaimerItem';
