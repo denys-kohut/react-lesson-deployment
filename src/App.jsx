@@ -30,7 +30,7 @@ export function App({disclaimerText, title, theme, goods}) {
           }
           {/* <AnotherComponent goods={goods}/> */}
         </div>
-        <Button onClick={toggleCounterVisibility} theme={theme}>I'm a {theme} button</Button>
+        <Button onClick={toggleCounterVisibility} theme={theme}>{isCounterVisible ? "hide" : "show"}</Button>
       </main>
       <footer>Footer</footer>
     </div>
