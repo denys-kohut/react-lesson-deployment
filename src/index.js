@@ -16,7 +16,7 @@ const disclaimerText = [
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <App2 />
-  // <React.StrictMode>
+  <React.StrictMode>
     <App
       disclaimerText={disclaimerText}
       title="title"
@@ -26,7 +26,7 @@ root.render(
         {name: "name2", price: 11}
       ]}
     />
-  // </React.StrictMode>
+  </React.StrictMode>
   // <UserList url="https://jsonplaceholder.typicode.com/users"/>
 );
 
