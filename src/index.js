@@ -11,9 +11,6 @@ import './index.css';
 const disclaimerText = [
   {text: "Attention, we have a discount", id:123,},
   {text: "Stay with us and receive even more", id:124,},
-  {text: "Lorem", id:125,},
-  {text: "Lorem5", id:126,},
-  {text: "Lorem4", id:127,}
 ]
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
